@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #004b15;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header__logo img {
+    height: 40px;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+
+ 
+  .header__icons {
+    display: flex;
+    align-items: center;
+  }
+  
+.header__search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+    max-width: 500px;
+    position: relative; 
+  }
+  
+  .header__searchInput {
+    width: 100%;
+    padding: 10px 40px 10px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .header__searchInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .header__search {
+    height: 46px;
+    border-radius: 48px;
+    
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+  .header__cartButton, .header__loginButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  
+  .header__cartButton img {
+    height: 24px;
+  }
+  
+  .header__cartCount {
+    margin-left: 4px;
+    color: #007bff;
+  }
+  
+  .header__loginButton {
+    font-size: 16px;
+    color: #007bff;
+  }
+  
