@@ -5,9 +5,9 @@ export default function Search() {
     return (
         <form>
             <div className="input-group">
-                <input type="text" placeholder='Search...' id='search_field' className='form-control' />
-                <div className="input-grou-append">
-                    <button id='search_btn' className='btn'><FaSearch className='fa fa-search' /></button>
+                <input type="text" placeholder="Search" id="search_field" className="form-control" />
+                <div className="input-group-append">
+                    <button id="search_btn" className="btn"><FaSearch className='fa fa-search' /></button>
                 </div>
             </div>
         </form>
