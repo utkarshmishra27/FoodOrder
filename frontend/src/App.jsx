@@ -1,15 +1,23 @@
 import React from "react";
 import "./App.css";
-import "./components/layouts/header";
-import Header from "./components/layouts/header";
-import Search from "./components/layouts/Search";
+import "./components/layouts/Header";
+import Header from "./components/layouts/Header";
+import Home from "./components/layouts/Home";
+import Footer from "./components/layouts/Footer";
+import Menu from "./components/layouts/Menu";
+
 
 export default function App() {
   return (
     <div className="App">
       <Header/>
+      <div className="container container-fluid">
+        {/* <Home /> */}
+        <Menu />
+      </div>
       
-
+        <Footer/>
+      
     </div>
   );
 }
