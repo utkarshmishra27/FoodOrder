@@ -1,12 +1,23 @@
-import React from 'react'
-import CountREstaurents from './CountRestaurents';
+import React, { useEffect } from 'react'
+import CountRestaurents from './CountRestaurents';
 import Restaurents from './Restaurents';
+import { getRestaurants } from '../../actions/restaurantAction';
+import { useDispatch } from 'react-redux';
 
 
 export default function Home() {
+  const dispatch = useDispatch();
+
+
+  useEffect(() => {
+    dispatch(getRestaurants());
+  },[dispatch]);
+
+
+
   return (
     <>
-      <CountREstaurents/>
+      <CountRestaurents/>
       <section>
         <div className="sort">
           <button className="sort_veg p-3">Pure Veg</button>

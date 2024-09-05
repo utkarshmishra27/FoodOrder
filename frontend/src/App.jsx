@@ -4,7 +4,7 @@ import "./components/layouts/Header";
 import Header from "./components/layouts/Header";
 import Home from "./components/layouts/Home";
 import Footer from "./components/layouts/Footer";
-import Menu from "./components/layouts/Menu";
+
 
 
 export default function App() {
@@ -12,8 +12,8 @@ export default function App() {
     <div className="App">
       <Header/>
       <div className="container container-fluid">
-        {/* <Home /> */}
-        <Menu />
+        <Home /> 
+        
       </div>
       
         <Footer/>
